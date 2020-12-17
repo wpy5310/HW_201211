@@ -1,0 +1,45 @@
+<html>
+	<body>
+		<script>
+			var input;
+			var num;
+			var rand = Math.floor((Math.random()*10)+1);
+
+			input = window.prompt("Please enter an integer more than 1 and less than 10")
+			num = parseInt(input);
+
+
+			//while(num !== rand){
+			//	window.prompt("Please try again.")
+			//	} 
+
+			while(num !== rand){
+				input = window.prompt("Please try again.")
+				num = parseInt(input);
+				//rand = Math.floor((Math.random()*10)+1);
+			}
+
+			document.writeln("BINGO!")
+			document.write("<p></p>")
+			document.writeln("The answeris:",rand)
+			//document.writeln("The answer is:",rand)
+
+			//document.writeln("Bingo!")
+
+			//if(num !== rand){
+			//	window.prompt("Please try again.")
+			//	document.writeln(rand)
+			//} else {
+			//	document.writeln("BINGO!")
+			//}
+
+			//<p><br>
+			//document.write("<br>")
+			//document.write(rand);	
+			//document.write("<br>")
+			//document.write('這是第二行');
+				
+			
+		</script>	
+	</body>
+</html>		
